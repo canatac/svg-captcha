@@ -57,11 +57,6 @@ declare class ConfigObject {
  */
 interface CaptchaObj {
 	/**
-	 * the captcha text,
-	 * store this in your session
-	 */
-	text: string,
-	/**
 	 * the svg image in string,
 	 * set type of image/svg before send to client side
 	 */
